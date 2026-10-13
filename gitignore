@@ -1,0 +1,17 @@
+# Private data - never push these to source control
+uploads/
+app.db
+
+# SQLite WAL mode creates these two helper files next to app.db
+app.db-wal
+app.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
