@@ -1,16 +1,3 @@
-"""
-Scholarship Application & Financial Aid Portal
-
-Run:  pip install -r requirements.txt   then   python main.py
-
-Sign Up creates a Student account, or a Committee account (needs a secret code).
-Sign In detects the role automatically. A built-in Super Admin (login not shown anywhere)
-can delete users and change the available funds.
-
-Sections: 1 Settings | 2 Database | 3 Helpers | 4 Design blocks | 5 Sign In / Sign Up |
-          6 Student | 7 Committee | 8 Super Admin | 9 Start
-"""
-
 import os
 import sys
 import shutil
